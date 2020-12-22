@@ -106,7 +106,7 @@ h2:after {
 .menu-button{
     background-color: transparent;
     color: #e67e22;
-    text-decoration: underline;
+    text-decoration: none;
     padding: 15px;
     cursor: pointer;
     font-size: 25px;
@@ -134,8 +134,8 @@ h2:after {
 .dropdown-menu a:hover{
     font-size: 30px;
     font-weight: 400;
-    background-color: rgb(255, 254, 254);
-    color: #000;
+    border-bottom: 1px solid white;
+    color:#cf6d17;
     border-radius: 10px;
 }
 
@@ -149,10 +149,10 @@ h2:after {
     padding: 15px;
     cursor: pointer;
     font-size: 25px;
-    
     text-decoration: none;
     display: inline-block;
 }
+
 
 .home-btn{
     background-color: transparent;
@@ -160,7 +160,6 @@ h2:after {
     padding: 15px;
     cursor: pointer;
     font-size: 25px;
-    
     text-decoration: none;
     display: inline-block;
 }
@@ -197,16 +196,11 @@ a:visited {
     color: #e67e22;
     text-decoration: none;
     padding-bottom: 1px;
-    border-bottom: 1px solid #e67e22;
+    
     -webkit-transition: border-bottom 0.2s, color 0.2s;
     transition: border-bottom 0.2s, color 0.2s;
 }
 
-a:hover,
-a:active {
-    color: #555;
-    border-bottom: 1px solid transparent;
-}
 
 /* ----- BUTTONS ----- */
 .btn:link,
@@ -493,7 +487,7 @@ input[type=checkbox] {
 footer {
     background-color: #333;
     padding: 50px;
-    font-size: 30px;
+    font-size: 25px;
     color: #ffffff;
     text-align: center;
 }
